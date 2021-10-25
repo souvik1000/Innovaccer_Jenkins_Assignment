@@ -35,7 +35,7 @@ class testingUser(unittest.TestCase):
         self.assertEqual(56, self.mult_check.multiply())
     
     def test_divCheck(self):
-        self.assertEqual(10, self.div_check.divition())
+        self.assertEqual(1, self.div_check.divition())
 
 
 if __name__ == "__main__":
